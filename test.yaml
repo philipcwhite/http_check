@@ -1,0 +1,6 @@
+receivers:
+  http_check:
+    duration: 30s
+    urls:
+      Google: "http://google.com"
+      Microsoft: "http://microsoft.com"
