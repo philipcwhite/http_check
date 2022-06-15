@@ -26,7 +26,7 @@ func web_check(url string) {
 }
 
 func main() {
-	k.Load(file.Provider("test2.yaml"), yaml.Parser())
+	k.Load(file.Provider("test.yaml"), yaml.Parser())
 
 	mymap := k.StringMap("receivers.http_check.urls")
 
